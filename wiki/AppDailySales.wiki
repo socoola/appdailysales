@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Python script to download daily sales reports from iTunes Connect web site.
 
 = Introduction =
 
