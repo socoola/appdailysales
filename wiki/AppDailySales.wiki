@@ -1,0 +1,19 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+AppDailySales is a Python script that will download yesterday's daily sales report from the iTunes Connect web site.  
+
+= How to Use =
+
+Download the script appdailysales.py and run the command line:
+
+  * *python appdailysales.py*
+
+Be sure to change the appleId and password variable values to your Apple ID and Password.  Without valid credentials the daily report cannot be downloaded. 
+
+= Some Final Words =
+
+I created this script with the iPhone developer in mind.  Being an iPhone developer myself I don't want to remember to download the daily sales report from yesterday's activity so I wrote this script.  I have a cron job scheduled on a server that will download each day's report for me so I don't have to.  Ain't automation great.
+
+It's my first attempt at writing a Python program (script) so be kind.  I'm sure there are better ways to accomplish what this script does and as I learn more about Python I will try to incorporate the better approaches into the script.
