@@ -10,7 +10,17 @@ Download the script appdailysales.py and run the command line:
 
   * *python appdailysales.py*
 
-Be sure to change the appleId and password variable values to your Apple ID and Password.  Without valid credentials the daily report cannot be downloaded. 
+
+usage: appdailysales.py [options]
+Options and arguments:
+-h     : print this help message and exit (also --help)
+-a uid : your apple id (also --appleId)
+-p pwd : your password (also --password)
+-o dir : directory where download file is stored, default is the current working directory (also --outputDirectory)
+-v     : verbose output (also --verbose)
+-u     : unzip download fipe (also --unzip)
+
+You can also change the option variables located towards the top of the script file if you prefer to not use the command line options. However, this approach is not recommended with version 1.2 and greater of the script file.
 
 = Some Final Words =
 
