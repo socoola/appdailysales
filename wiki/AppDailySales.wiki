@@ -6,6 +6,10 @@ AppDailySales is a Python script that will download yesterday's daily sales repo
 
 = How to Use =
 
+AppDailySales can be used as a stand-alone program or as part of another script.
+
+== Use as Stand-alone Program ==
+
 Download the script appdailysales.py and run the command line:
 
   * *python appdailysales.py*
@@ -24,11 +28,43 @@ Options and arguments:
 
 You can also change the option variables located towards the top of the script file if you prefer to not use the command line options. However, this approach is not recommended with version 1.2 and greater of the script file.
 
+*Note:* The script will return the exit code 0 if successful, otherwise exit code 1 is returned.
+
+== Use as Part of Another Script ==
+
+As of Version 1.3 the AppDailySales script can be used as part of another script.  Simply import appdailysales, set the report options, and call the downloadFile function.  Here is a sample script file to help you get started:
+
+{{{
+#!/usr/bin/python
+
+import sys
+import traceback
+import appdailysales
+
+def main():
+  options = appdailysales.ReportOptions()
+  options.appleId = 'Your Apple Id'
+  options.password = 'Your Password'
+  options.outputDirectory = ''
+  options.unzipFile = False
+  options.verbose = False
+  try:
+    filename = appdailysales.downloadFile(options)
+    print 'Report file downloaded: ', filename
+  except:
+    traceback.print_exc()
+	
+if __name__ == '__main__':
+  main()
+}}}
+
+The function *appdailysales.downloadFile* will return the name of the file downloaded. Be sure to include a try..except block around the call to gracefully handle any errors that might occur during the download.
+
 = Some Final Words =
 
 I created this script with the iPhone developer in mind.  Being an iPhone developer myself I don't want to remember to download the daily sales report from yesterday's activity so I wrote this script.  I have a cron job scheduled on a server that will download each day's report for me so I don't have to.  Ain't automation great.
 
-It's my first attempt at writing a Python program (script) so be kind.  I'm sure there are better ways to accomplish what this script does and as I learn more about Python I will try to incorporate the better approaches into the script.
+This is my first attempt at writing a Python program (script) so be kind.  I'm sure there are better ways to accomplish what this script does and as I learn more about Python I will try to incorporate the better approaches into the script.
 
 = Other Useful Projects =
 
