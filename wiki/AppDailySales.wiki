@@ -76,8 +76,6 @@ The function *appdailysales.downloadFile* will return the name of the file downl
 
 I created this script with the iPhone developer in mind.  Being an iPhone developer myself I don't want to remember to download the daily sales report from yesterday's activity so I wrote this script.  I have a cron job scheduled on a server that will download each day's report for me so I don't have to.  Ain't automation great.
 
-This is my first attempt at writing a Python program (script) so be kind.  I'm sure there are better ways to accomplish what this script does and as I learn more about Python I will try to incorporate the better approaches into the script.
-
 = Other Useful Projects =
 
 For more useful projects visit the OtherUsefulProjects wiki page.
