@@ -62,6 +62,10 @@ The function *appdailysales.downloadFile* will return the name of the file downl
 
 = Change History =
 
+*Version 1.5*
+  * Updated script to work with latest web site changes
+  * Removed trackback output when usage is displayed
+
 *Version 1.4*
   * Modified to use itts.apple.com as the starting point; eliminates 2 HTTP calls (thanks to Leon Ho for providing the change)
   * Added error check for download file; prints 'report not available' message if detected
