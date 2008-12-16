@@ -61,9 +61,9 @@ if __name__ == '__main__':
 
 The function *appdailysales.downloadFile* will return the name of the last file downloaded. Be sure to include a try..except block around the call to gracefully handle any errors that might occur during the download.
 
-== Download Multiple Reports ==
+== Download Reports Multiple Days ==
 
-With the release of version 1.6 you can now specify the number of days for which reports should be downloaded by using the -d (or --days) option.  The default value for this option is 1, which will download the most recent report available, i.e., yesterday's report.  A value of 2 will download the 2 most recent reports, which is yesterday's and the day before.  Any value can be used however please note that as of now Apple only stores the last 7 days of daily sales reports.  Using a value greater than 7 will result in a "report not available" error.
+As of version 1.6, there is a -d (also --days) option that is used to specify the number of days to download.  The default is 1, which will download yesterday's report and keeps the script backwards compatible with the previous versions. Any value can be used for this option.  However please note that as of now Apple only stores the last 7 days of daily sales reports.  Using a value greater than 7 will result in a "report not available" error. 
 
 Why not add a check in the script to prevent values greater than 7? I decided not to include the check on the off chance Apple decides to provide access to reports older than 7 days.  
 
@@ -95,6 +95,12 @@ With the release of version 1.6 the script will use [http://www.crummy.com/softw
 
 *Version 1.1* 
   * Initial release
+
+= Contributors =
+
+Special thanks goes out to the following individuals for contributing to this project:
+  * Leon Ho
+  * Quentin D. Carnicelli
 
 = Some Final Words =
 
