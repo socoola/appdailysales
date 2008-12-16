@@ -22,8 +22,9 @@ Options and arguments:
 -a uid : your apple id (also --appleId)
 -p pwd : your password (also --password)
 -o dir : directory where download file is stored, default is the current working directory (also --outputDirectory)
--v     : verbose output (also --verbose)
--u     : unzip download fipe (also --unzip)
+-v     : verbose output, default is off (also --verbose)
+-u     : unzip download file, default is off (also --unzip)
+-d num : number of days to download, default is 1 (also --days)
 }}}
 
 You can also change the option variables located towards the top of the script file if you prefer to not use the command line options. However, this approach is not recommended with version 1.2 and greater of the script file.
@@ -58,9 +59,14 @@ if __name__ == '__main__':
   main()
 }}}
 
-The function *appdailysales.downloadFile* will return the name of the file downloaded. Be sure to include a try..except block around the call to gracefully handle any errors that might occur during the download.
+The function *appdailysales.downloadFile* will return the name of the last file downloaded. Be sure to include a try..except block around the call to gracefully handle any errors that might occur during the download.
 
 = Change History =
+
+*Version 1.6*
+  * Modified to use BeautifulSoup is available (thanks Quentin D. Carnicelli)
+  * Modified unzip logic to work in memory only, making it faster and less error prone (thanks Quentin D. Carnicelli)
+  * Added days to download option (-d or --days), can be used to download all available reports
 
 *Version 1.5*
   * Updated script to work with latest web site changes
