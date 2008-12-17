@@ -2,7 +2,7 @@
 
 = Introduction =
 
-AppDailySales is a Python script that will download yesterday's daily sales report from the iTunes Connect web site.  
+AppDailySales is a Python script that will download daily sales report files from the iTunes Connect web site.  
 
 = How to Use =
 
@@ -25,6 +25,7 @@ Options and arguments:
 -v     : verbose output, default is off (also --verbose)
 -u     : unzip download file, default is off (also --unzip)
 -d num : number of days to download, default is 1 (also --days)
+-D mm/dd/yyyy : report date to download, -d option is ignored when -D is used (also --date)
 }}}
 
 You can also change the option variables located towards the top of the script file if you prefer to not use the command line options. However, this approach is not recommended with version 1.2 and greater of the script file.
@@ -72,6 +73,10 @@ Why not add a check in the script to prevent values greater than 7? I decided no
 With the release of version 1.6 the script will use [http://www.crummy.com/software/BeautifulSoup/ BeautifulSoup] if available.  BeautifulSoup is a Python HTML/XML parser that greatly simplifies screen-scraping web pages.  BeautifulSoup is not required to use the AppDailySales script.  However, if used then there is a less likely chance the AppDailySales script will break if and when Apple decides to change the layout of the web page.
  
 = Change History =
+
+*Version 1.7*
+  * Removed code that received available report dates from the HTML. This broke backwards compatibility when using BeautifulSoup and was misleading when Apple delayed "yesterday's" reports.
+  * Added in -D (also --date) option that allows the download of a specific date. Note: date must be in MM/DD/YYYY format.
 
 *Version 1.6*
   * Modified to use BeautifulSoup is available (thanks Rogue Amoeba Software, LLC)
