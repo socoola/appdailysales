@@ -76,7 +76,7 @@ With the release of version 1.6 the script will use [http://www.crummy.com/softw
 
 *Version 1.7*
   * Removed code that received available report dates from the HTML. This broke backwards compatibility when using BeautifulSoup and was misleading when Apple delayed "yesterday's" reports.
-  * Added in -D (also --date) option that allows the download of a specific date. Note: date must be in MM/DD/YYYY format.
+  * Added in -D (also --date) option that allows the download of a specific date. Note: date must be in mm/dd/yyyy format.
 
 *Version 1.6*
   * Modified to use BeautifulSoup is available (thanks Rogue Amoeba Software, LLC)
