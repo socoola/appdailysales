@@ -74,8 +74,8 @@ With the release of version 1.6 the script will use [http://www.crummy.com/softw
 = Change History =
 
 *Version 1.6*
-  * Modified to use BeautifulSoup is available (thanks Quentin D. Carnicelli)
-  * Modified unzip logic to work in memory only, making it faster and less error prone (thanks Quentin D. Carnicelli)
+  * Modified to use BeautifulSoup is available (thanks Rogue Amoeba Software, LLC)
+  * Modified unzip logic to work in memory only, making it faster and less error prone (thanks Rogue Amoeba Software, LLC)
   * Added days to download option (-d or --days), can be used to download all available reports
 
 *Version 1.5*
@@ -100,7 +100,7 @@ With the release of version 1.6 the script will use [http://www.crummy.com/softw
 
 Special thanks goes out to the following individuals for contributing to this project:
   * Leon Ho
-  * Quentin D. Carnicelli
+  * Rogue Amoeba Software, LLC
 
 = Some Final Words =
 
