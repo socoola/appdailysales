@@ -1,0 +1,3 @@
+==Source Code Repository Has Moved==
+
+The appdailysales.py source code repository has moved to [https://github.com/kirbyt/appdailysales github]. The new location is at: [https://github.com/kirbyt/appdailysales https://github.com/kirbyt/appdailysales]
