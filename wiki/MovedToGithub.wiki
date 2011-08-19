@@ -1,3 +1,5 @@
 ==Source Code Repository Has Moved==
 
 The appdailysales.py source code repository has moved to [https://github.com/kirbyt/appdailysales github]. The new location is at: [https://github.com/kirbyt/appdailysales https://github.com/kirbyt/appdailysales]
+
+The old source code repository is available at [http://code.google.com/p/appdailysales/source/list http://code.google.com/p/appdailysales/source/list]. Note this repository is no longer maintained.
