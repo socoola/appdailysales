@@ -1,5 +1,15 @@
-==Source Code Repository Has Moved==
+=We've Moved=
 
-The appdailysales.py source code repository has moved to [https://github.com/kirbyt/appdailysales github]. The new location is at: [https://github.com/kirbyt/appdailysales https://github.com/kirbyt/appdailysales]
+This project has moved to [https://github.com/kirbyt/appdailysales github]. The project is now located at: [https://github.com/kirbyt/appdailysales https://github.com/kirbyt/appdailysales]
 
-The old source code repository is available at [http://code.google.com/p/appdailysales/source/list http://code.google.com/p/appdailysales/source/list]. Note this repository is no longer maintained.
+==Old Issues List==
+
+The old issues list is available [http://code.google.com/p/appdailysales/issues/list here]. The link to the old issues list is provided for historical purposes only. Please do not post any new issues to the old issues list.
+
+New issues should be posted [https://github.com/kirbyt/appdailysales/issues here].
+
+==Old Source Code Repository==
+
+The old source code repository is available [http://code.google.com/p/appdailysales/source/list here]. The link is provided for historical purposes only. New code changes will not be posted to the old source code repository.
+
+The latest source code is available [https://github.com/kirbyt/appdailysales here].
