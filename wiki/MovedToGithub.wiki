@@ -2,6 +2,10 @@
 
 This project has moved to [https://github.com/kirbyt/appdailysales github]. The project is now located at: [https://github.com/kirbyt/appdailysales https://github.com/kirbyt/appdailysales]
 
+==Old Download List==
+
+Previous versions of the script can be downloaded [http://code.google.com/p/appdailysales/downloads/list here]. The link to the old download list is provided for historical purposes only. Visit the new project page at [https://github.com/kirbyt/appdailysales https://github.com/kirbyt/appdailysales] to download the latest.
+
 ==Old Issues List==
 
 The old issues list is available [http://code.google.com/p/appdailysales/issues/list here]. The link to the old issues list is provided for historical purposes only. Please do not post any new issues to the old issues list.
