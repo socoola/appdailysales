@@ -1,0 +1,1 @@
+Content of this page has been moved to the [project summary](http://code.google.com/p/appdailysales/) page.
